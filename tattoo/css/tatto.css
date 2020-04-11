@@ -43,10 +43,6 @@ table {
 	border-spacing: 0;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 .section{
     background: #666666;
@@ -150,6 +146,7 @@ table {
 *{
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	font-family: 'Slabo 27px', sans-serif;
 }
 body{
 	background: #000;
@@ -160,7 +157,7 @@ body{
 	max-width: 1500px;
 }
 span, p{
-    font-size: 1.8vh;
+    font-size: 2vh;
 }
 img{
     display: block;
@@ -372,7 +369,6 @@ header{
 }
 .team-info-block span{	
 	min-height: 100px;
-	margin: auto 0 ;
 	overflow-x: auto;
 }
 .team-in-icon{
@@ -440,13 +436,19 @@ input, textarea{
 .footer-cont>div{
 	width: 100%;
 }
+.f-cont-b span{
+	font-size: 1.8vh;
+}
+.f-norm{
+	text-transform: none;
+}
 .f-cont-b>div{
 	padding: 3vh 2vh;
 	text-align: start;
 	flex-direction: column;
 }
 .f-cont-b>div h3{
-	padding-bottom: 2vh ;
+	padding-bottom: 2vh;
 }
 .footer-form *{
 	width: 100%;
@@ -497,6 +499,7 @@ input, textarea{
 	cursor:pointer;
 	color:#fff;
 	font-size:25px;
+	scroll-behavior: auto;
 }
 
 /* MEDIA */

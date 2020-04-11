@@ -1,0 +1,1 @@
+$('.menu-btn').on('click',function(e){e.preventDefault;$('.menu-btn').toggleClass('menu-btn-active')});$('.menu-btn').on('click',function(){$('.burger-menu').toggleClass('b-menu-active')});$('.menu-btn').on('click',function(){$('.section').toggleClass('section-active')})

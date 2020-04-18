@@ -1,7 +1,7 @@
 $('.menu-btn').on('click',function(e){e.preventDefault;$('.menu-btn').toggleClass('menu-btn-active')});$('.menu-btn').on('click',function(){$('.burger-menu').toggleClass('b-menu-active')});$('.menu-btn').on('click',function(){$('.section').toggleClass('section-active')})
 
 const makets = [
-    { name: 'Tattoo Salon', img: 'img/wrap1.png', link: 'tattoo/tatto.html' },
+    { name: 'Tattoo Salon', img: 'img/wrap1.png', link: 'tattoo/tattoo.html' },
     { name: 'new', img: 'img/red-bg.jpg', link: '#' },
     { name: 'new', img: 'img/red-bg.jpg', link: '#' },
     { name: 'new', img: 'img/red-bg.jpg', link: '#' }
